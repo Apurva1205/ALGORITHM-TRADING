@@ -1,0 +1,8 @@
+This program uses the following packages:
+
+requests: a package for making HTTP requests in Python
+pandas: a package for data manipulation and analysis
+datetime: a package for working with dates and times
+matplotlib.pyplot: This package is used to create a plot of the buy and sell signals over time
+    
+The requests package is used to make a GET request to the Alpha Vantage API to retrieve intraday stock data. The pandas package is used to create and manipulate DataFrames, which are used to store and analyze the stock data. The datetime package is used to convert the timestamps in the stock data from strings to Python datetime objects, which can be used for further analysis or visualization.
